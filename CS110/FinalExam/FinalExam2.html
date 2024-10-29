@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+    .First{
+      width: 300px;
+    }
+
+  </style>
+</head>
+<body>
+<form action="http://example.com">
+  <fieldset class="First">
+    <legend>Account Credentials</legend>
+      <label>User Name:
+        <input type="text" name="username" placeholder="Your User Name" required>
+      </label>
+      <br>
+      <label>Password:
+        <input type="password" name="Password" placeholder="Your password" required>
+      </label>
+      <br>
+    <fieldset class="Second">
+      <legend>Captcha</legend>
+      <p>Prove you are not a robot. Answer this question: do people eat steel?</p>
+      <input id="Yes?" type="radio" name="delivery" value="regular">
+      <label for="Yes?">Yes?</label>
+      <input id="No?" type="radio" name="delivery" value="express">
+      <label for="No?">No?</label>
+    </fieldset>
+    <br>
+    <input type="submit" value="Press here when ready">
+  </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        form
+        {
+            width: 30%;
+        }
+        fieldset
+        {
+            margin-bottom: 20px;
+        }
+        th label
+        {
+            text-align : right;
+        }
+        td input
+        {
+            border : 1px solid black;
+        }
+        td input:hover
+        {
+            border : 1px solid lightgreen;
+        }
+        td input:focus
+        {
+            border : 1px solid red;
+        }
+        td input:active
+        {
+            border : 1px solid blue;
+        }
+
+        input:hover
+        {
+            border : 2px solid lightgray;
+        }
+        input:focus
+        {
+            border : 2px outset gray;
+        }
+        input:active
+        {
+            border : 2px inset gray;
+        }
+
+    </style>
+</head>
+<body>
+
+<form action="http://3.86.56.137:8080/CS110Server/EchoParameters">
+    <fieldset>
+        <legend>Text Fields</legend>
+        <table>
+            <tr>
+                <th><label for="firstName">First Name: </label></th>
+                <td><input id="firstName" type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <th><label for="lastName">Last Name: </label></th>
+                <td><input id="lastName" type="text" name="lastName"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="See what happens">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Your order is almost complete</h2>
+<form action="http://3.86.56.137:8080/CS110Server/EchoParameters">
+    <fieldset>
+        <legend>Sign Up Here!</legend>
+    <fieldset style="width:30%">
+        <legend>Tell us about yourself</legend>
+        <label>Name:<br>
+            <input type="text" name="name" placeholder="Your name" required>
+        </label><br>
+        <label>Street Address:<br>
+            <input type="text" name="street"
+                   placeholder="Your street address" required>
+        </label><br>
+        <label>City:<br>
+            <input type="text" name="city"
+                   placeholder="Your city" required>
+        </label><br>
+        <label>State:<br>
+            <input type="text" name="state"
+                   placeholder="Your state" required>
+        </label><br>
+        <label>Zipcode:<br>
+            <input type="text" size="5" name="zipcode"
+                   placeholder="Zipcode" required>
+        </label>
+        <fieldset>
+            <legend>Delivery Type</legend>
+
+            <input id="regularDelivery" type="radio" name="delivery" value="regular">
+            <label for="regularDelivery">Regular</label>
+
+            <input id="expressDelivery" type="radio" name="delivery" value="express">
+            <label for="expressDelivery">Express</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tell us: where did you hear about us?</legend>
+
+            <input id="television" type="checkbox" name="newsource" value="television">
+            <label for="television">Television</label>
+
+            <input id="radio" type="checkbox" name="newsource" value="radio">
+            <label for="radio">Radio</label>
+
+            <input id="newspaper" type="checkbox" name="newsource" value="newspaper">
+            <label for="newspaper">Newspaper</label>
+        </fieldset>
+    </fieldset>
+
+    <br>
+    <button>
+        <img src="../Images/AbrahamDarby.jpg"
+             width="40" height="40" align="left">
+        Press here <br>to submit
+    </button>
+    </fieldset>
+</form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<img src="../Images/RegistrationForm.png" alt="">
+<form action="http://3.86.56.137:8080/CS110Server/EchoParameters">
+  <fieldset style="width:30%">
+    <legend>Sign Up Here!</legend>
+    <fieldset>
+      <legend>Tell us about yourself</legend>
+      <label>Title:
+        <select name="Title">
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Doctor">Doctor</option>
+        <option value="Mrs.">Mrs.</option>
+      </select>
+      </label>
+      <br>
+      <label>First Name:
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <br>
+      <label>Last Name:
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <br>
+      <label>Street Address:
+        <input name="street" placeholder="Your street address" required>
+      </label>
+      <br>
+      <label>City:
+        <input type="text" name="city" placeholder="Your city" required>
+      </label>
+      <br>
+      <label>State:
+        <input type="text" name="state" placeholder="Your state" required>
+      </label>
+      <br>
+      <label>Zipcode:
+        <input type="text" size="5" name="zipcode" placeholder="Zipcode" required>
+      </label>
+      <br>
+      <label>E-mail Address:
+        <input type="text" name="E-mail Address" placeholder="E-mail Address" required>
+      </label>
+    </fieldset>
+      <fieldset>
+        <legend>How would you like to receive the newsletter ?</legend>
+
+        <input id="PrintedCopy" type="radio" name="delivery" value="regular">
+        <label for="PrintedCopy">Printed Copy</label>
+
+        <input id="ElectronicCopy" type="radio" name="delivery" value="express">
+        <label for="ElectronicCopy">Electronic Copy</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+<label>Please check all that apply</label>
+        <ol type="1">
+          <li>
+            <input id="radio" type="checkbox" name="newsource" value="radio">
+            <label for="radio">Radio</label>
+          </li>
+          <li>
+            <input id="television" type="checkbox" name="newsource" value="television">
+            <label for="television">Television</label>
+          </li>
+          <li>
+            <input id="newspaper" type="checkbox" name="newsource" value="newspaper">
+            <label for="newspaper">Newspaper</label>
+          </li>
+          <li>
+            <input id="WordOfMouth" type="checkbox" name="newsource" value="newspaper">
+            <label for="WordOfMouth">Word of Mouth</label>
+          </li>
+        </ol>
+      </fieldset>
+    <br>
+    <input type="submit" value="Press here when you are ready">
+  </fieldset>
+</form>
+</body>
+</html>

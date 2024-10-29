@@ -1,0 +1,8 @@
+// Link to Venus page at NASA
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html
+
+// Link to Jupiter page at NASA
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html
+
+// Link to Saturn page at NASA
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html
